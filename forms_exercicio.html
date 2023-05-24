@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastros Astronalta</title>
+  </head>
+  <body>
+    <h3>Cadastro da liga dos astronaltas</h3>
+    <form action="">
+      <p>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required="text" />
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required="email" />
+        <label for="pwd"> - Senha:</label>
+        <input type="password" name="pwd" id="pwd" required="password" />
+      </p>
+      <p>
+        <label for="birth_date">Data de nascimento:</label>
+        <input type="date" value="birth_date" />
+        <label for="mypicture">Foto:</label>
+        <input type="file" id="mypicture" name="mypicture" />
+      </p>
+      <p>
+        <label for="nacionalit">Nacionalidade:</label>
+        <select name="nacionalit" id="nacionalit">
+          <option value="Asiatico">Asiatico</option>
+          <option value="Europel">Europel</option>
+          <option value="Americano">Americano</option>
+          <option value="Africano">Africano</option>
+        </select>
+        Genero:
+        <label for="F">F</label>
+        <input type="radio" id="F" name="gender" value="female" />
+        <label for="M">M</label>
+        <input type="radio" id="M" name="gender" value="male" />
+      </p>
+      <p>
+        Suas principais qualidades:<br />
+        <label for="intelligence">Inteligência</label>
+        <input type="checkbox" id="intelligence" name="intelligence" /> |
+        <label for="resilience">Resiliência</label>
+        <input type="checkbox" id="resilience" name="resilience" /> |
+        <label for="fisic">Preparo físico</label>
+        <input type="checkbox" id="fisic" name="fisic" /> |
+        <label for="education">Educação</label>
+        <input type="checkbox" id="education" name="education" /> |
+      </p>
+      <textarea name="complemet" cols="30" rows="10">Porque você quer ser um astronalta?</textarea>
+      </p>
+      <input type="submit" value="Criar" />
+    </form>
+  </body>
+</html>
